@@ -16,3 +16,11 @@ Select the elements that we want to interact with.
 Interact with those elements.
 Assert that the results are s expected.
 
+## Automated testing using Cypress.
+Cypress is a next generation frontend testing tool built for modern web. It is mainly used for end to end testing by developers and QA engineers but it can also
+be used to test different components independently on the browser.
+
+### Who Uses Cypress?
+Cypress is mainly used by developer or QA engineers building web applications using the modern Javascript Frameworks.
+It can be used to write all kind of tests:(end to end tests, component tests, integration tests and unit tests)
+
