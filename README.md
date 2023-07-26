@@ -15,3 +15,4 @@ Inside the test block, the first thing is to render the component that we want t
 Select the elements that we want to interact with.
 Interact with those elements.
 Assert that the results are s expected.
+
