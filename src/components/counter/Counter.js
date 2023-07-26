@@ -3,12 +3,12 @@ import { useState } from "react";
 const Counter = () => {
   const [count, setCount] = useState(0);
 
-  const incrementCounter = (prevCount) => {
-    setCount(prevCount++);
+  const incrementCounter = () => {
+    setCount((prevCount) => prevCount + 1);
   };
 
-  const decrementCounter = (prevCount) => {
-    setCount(prevCount--);
+  const decrementCounter = () => {
+    setCount((prevCount) => prevCount - 1);
   };
 
   return (
