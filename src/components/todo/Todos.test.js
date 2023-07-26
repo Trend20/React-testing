@@ -1,5 +1,6 @@
-import { render, screen, waitFor } from "@testing-library/react";
 import Todos from "./Todos";
+import { render, screen, waitFor } from "@testing-library/react";
+
 import axios from "axios";
 
 // mocking the api data
